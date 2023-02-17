@@ -1,11 +1,12 @@
-#include <stadio.h>
+#include <stdio.h>
+
 /**
-*main - entry point
-*Description: prints "\"programming is like building a multilngual puzzle"
-*Return:0
-*/
+ * main -  Print a string
+ * description: use printf
+ * Return: 0
+ */
 int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
+printf("%s", "with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
